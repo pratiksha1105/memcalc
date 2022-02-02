@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+<!-- create table -->
+
+<body>
+    <div class="title">Calculator</div>
+    <table border="1">
+        <tr>
+            <td colspan="3"><input type="text" id="result" readonly /></td>
+            <!-- clr() function will call clr to clear all value -->
+            <td><input id="btn_clear" type="button" value="AC" /></td>
+        </tr>
+        <tr>
+            <!--When clicked it should add current eq's value to memory-->
+            <td><input id="btn_add" type="button" value="M+" /></td>
+
+            <!--When clicked it should delete the current displayed value from memory-->
+            <td><input id="btn_delete" type="button" value="M-" /></td>
+
+            <!--When button clicked it should clear all memory-->
+            <td><input id="btn_memory_clear" type="button" value="MC" /></td>
+
+            <td><input id="btn_counter" type="button" value="M" /></td>
+        </tr>
+        <tr>
+            <!-- create button and assign value to each button -->
+            <!-- dis("1") will call function dis to display value -->
+            <td><input class="op_button" type="button" value="7" /></td>
+            <td><input class="op_button" type="button" value="8" /></td>
+            <td><input class="op_button" type="button" value="9" /></td>
+            <td><input class="op_button" type="button" value="/" /></td>
+        </tr>
+        <tr>
+            <td><input class="op_button" type="button" value="4" /></td>
+            <td><input class="op_button" type="button" value="5" /></td>
+            <td><input class="op_button" type="button" value="6" /></td>
+            <td><input class="op_button" type="button" value="-" /></td>
+        </tr>
+        <tr>
+            <td><input class="op_button" type="button" value="1" /></td>
+            <td><input class="op_button" type="button" value="2" /></td>
+            <td><input class="op_button" type="button" value="3" /></td>
+            <td><input class="op_button" type="button" value="+" /></td>
+        </tr>
+        <tr>
+            <td><input class="op_button" type="button" value="." /></td>
+            <td><input class="op_button" type="button" value="0" /></td>
+            <!-- solve function call function solve to evaluate value -->
+            <td><input id="btn_solve" type="button" value="=" /></td>
+            <td><input class="op_button" type="button" value="*" /></td>
+        </tr>
+    </table>
+    <script src="calculator.js "></script>
+</body>
+
+</html>

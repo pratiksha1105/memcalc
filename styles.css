@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #06bdf5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 10px;
+    width: 210px;
+    color: rgb(29, 22, 24);
+    border: inset blueviolet;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type='button'] {
+    background-color: rgb(224, 66, 26);
+    color: black;
+    border: solid black 2px;
+    width: 170px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+input[type='text'] {
+    background-color: white;
+    border: solid rgb(16, 17, 16) 2px;
+    width: 100%;
+    text-align: right;
+    font-weight: bolder;
+    color: crimson;
+}
